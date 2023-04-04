@@ -2,8 +2,17 @@
 
 :host {
   --tc-form-description-color: inherit;
+  --tc-form-description-fs: inherit;
+  --tc-form-description-ff: inherit;
+  --tc-form-description-fw: inherit;
+  --tc-form-description-lh: inherit;
+  --tc-form-description-margin: var(--tc-base-module-rem, .5rem) 0 0;
 
   color: var(--tc-form-description-color);
+  font-size: var(--tc-form-description-fs);
+  font-family: var(--tc-form-description-ff);
+  font-weight: var(--tc-form-description-fw);
   display: block;
+  line-height: var(--tc-form-description-lh);
   margin: var(--tc-base-module-rem, 10px) 0 0;
 }
